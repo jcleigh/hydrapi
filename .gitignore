@@ -2,7 +2,9 @@
 node_modules
 venv
 bin
+bin/
 obj
+*.log
 
 ### Spring Boot ###
 HELP.md
@@ -19,3 +21,15 @@ target/
 .settings
 .springBeans
 .sts4-cache
+
+### GO ###
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+tmp
+migrations
